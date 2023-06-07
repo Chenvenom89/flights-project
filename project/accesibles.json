@@ -1,0 +1,45 @@
+{
+    "airline": {
+      "getAllAirlineCompanies": "function() { ... }",
+      "getAirlineById": "function(id) { ... }",
+      "addAirline": "function(airline) { ... }",
+      "updateAirline": "function(airline) { ... }",
+      "removeAirline": "function(id) { ... }"
+    },
+    "customer": {
+      "getAllCustomers": "function() { ... }",
+      "getCustomerById": "function(id) { ... }",
+      "addCustomer": "function(customer) { ... }",
+      "updateCustomer": "function(customer) { ... }",
+      "removeCustomer": "function(id) { ... }"
+    },
+    "admin": {
+      "getAllAdmins": "function() { ... }",
+      "getAdminById": "function(id) { ... }",
+      "addAdmin": "function(admin) { ... }",
+      "updateAdmin": "function(admin) { ... }",
+      "removeAdmin": "function(id) { ... }"
+    },
+    "flight": {
+      "getAllFlights": "function() { ... }",
+      "getFlightById": "function(id) { ... }",
+      "addFlight": "function(flight) { ... }",
+      "updateFlight": "function(flight) { ... }",
+      "removeFlight": "function(id) { ... }"
+    },
+    "ticket": {
+      "getAllTickets": "function() { ... }",
+      "getTicketById": "function(id) { ... }",
+      "addTicket": "function(ticket) { ... }",
+      "updateTicket": "function(ticket) { ... }",
+      "removeTicket": "function(id) { ... }"
+    },
+    "country": {
+      "getAllCountries": "function() { ... }",
+      "getCountryById": "function(id) { ... }",
+      "addCountry": "function(country) { ... }",
+      "updateCountry": "function(country) { ... }",
+      "removeCountry": "function(id) { ... }"
+    }
+  }
+  

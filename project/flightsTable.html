@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flight scheduale</title>
+</head>
+
+<title>Flight Table</title>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+<h1>Flight Schedule</h1>
+<table id="flightTable">
+  <tr>
+    <th>Flight</th>
+    <th>Airline</th>
+    <th>Time of Departure</th>
+    <th>Time of Arrival</th>
+    <th>Destination Country</th>
+    <th>Country of Origin</th>
+    <th>Date of Departure</th>
+    <th>Date of Arrival</th>
+  </tr>
+  <tr>
+    <td>Flight 1</td>
+    <td>Airline 1</td>
+    <td>08:00 AM</td>
+    <td>10:00 AM</td>
+    <td>Country A</td>
+    <td>Country B</td>
+    <td>2023-06-01</td>
+    <td>2023-06-02</td>
+  </tr>
+  <tr>
+    <td>Flight 2</td>
+    <td>Airline 2</td>
+    <td>10:30 AM</td>
+    <td>12:30 PM</td>
+    <td>Country C</td>
+    <td>Country D</td>
+    <td>2023-06-01</td>
+    <td>2023-06-02</td>
+  </tr>
+  <tr>
+    <td>Flight 3</td>
+    <td>Airline 3</td>
+    <td>02:45 PM</td>
+    <td>03:45 PM</td>
+    <td>Country E</td>
+    <td>Country F</td>
+    <td>2023-06-02</td>
+    <td>2023-06-03</td>
+  </tr>
+</table>
+
+<button onclick="refreshTable()">Refresh</button>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
